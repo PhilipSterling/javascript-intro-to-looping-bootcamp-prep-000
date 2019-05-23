@@ -13,3 +13,4 @@ function whileLoop(number) {
    number--
   }
 }
+whileLoop(5)
