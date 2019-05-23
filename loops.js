@@ -7,10 +7,9 @@ function forLoop(array) {
   }
   return array
 }
-function whileLoop(number) {
-  while(number >= 0){
-   console.log(number) 
-   number--
+function whileLoop(n) {
+  while(n >= 0){
+   console.log(n) 
+   n--
   }
 }
-whileLoop(5)
