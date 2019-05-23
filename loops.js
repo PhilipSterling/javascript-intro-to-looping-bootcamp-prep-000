@@ -22,6 +22,6 @@ function doWhileLoop(n) {
   return i;
 }
   do{
-    console.log("doo-bee-doo-bee-doo");
-  }while()
+    console.log("I run once regardless.");
+  }while(incrementVariable() < n)
 }
