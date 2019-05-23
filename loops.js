@@ -14,11 +14,13 @@ function whileLoop(n) {
   }
   return "done"
 }
-function incrementVariable() {
+
+function doWhileLoop(n) {
+  var i = 0
+  function incrementVariable() {
   i = i + 1;
   return i;
 }
-function doWhileLoop(n) {
   do{
     
   }while()
